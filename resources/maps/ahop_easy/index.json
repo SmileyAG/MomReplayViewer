@@ -1,0 +1,1251 @@
+{
+  "name": "ahop_easy",
+  "lightmapUrl": "./resources/maps/ahop_easy/lightmap.json?v=1ddc-9dec",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 2355,
+      "url": "./resources/maps/ahop_easy/geom/leafpage0.json?v=1ddc-9dec"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 32,
+      "url": "./resources/maps/ahop_easy/geom/disppage0.json?v=1ddc-9dec"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 28,
+      "url": "./resources/maps/ahop_easy/materials/matpage0.json?v=1ddc-9dec"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 26,
+      "url": "./resources/maps/ahop_easy/geom/bsppage0.json?v=1ddc-9dec"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 2,
+      "url": "./resources/maps/ahop_easy/geom/mdlpage0.json?v=1ddc-9dec"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 20,
+      "url": "./resources/maps/ahop_easy/geom/vhvpage0.json?v=1ddc-9dec"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 882,
+      "url": "./resources/maps/ahop_easy/geom/vispage0.json?v=1ddc-9dec"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 2355,
+      "url": "./resources/maps/ahop_easy/geom/ambientpage0.json?v=1ddc-9dec"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/maps/ahop_easy/materials/skybox/sky178rt.vtf.json?v=1ddc-9dec"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/maps/ahop_easy/materials/skybox/sky178lf.vtf.json?v=1ddc-9dec"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/maps/ahop_easy/materials/skybox/sky178bk.vtf.json?v=1ddc-9dec"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/maps/ahop_easy/materials/skybox/sky178ft.vtf.json?v=1ddc-9dec"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/maps/ahop_easy/materials/skybox/sky178up.vtf.json?v=1ddc-9dec"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/maps/ahop_easy/materials/skybox/sky178dn.vtf.json?v=1ddc-9dec"
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5152.0,
+        "y": 992.0,
+        "z": -5536.0
+      }
+    },
+    {
+      "classname": "env_sun",
+      "origin": {
+        "x": -4931.41,
+        "y": 10848.0,
+        "z": -4284.5
+      },
+      "angles": {
+        "x": 24.0,
+        "y": 353.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 200
+      },
+      "Ambient": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 20
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": -60.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": -4960.0,
+        "y": 10848.0,
+        "z": -4284.5
+      },
+      "angles": {
+        "x": -60.0,
+        "y": 150.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -5152.0,
+        "y": 10840.0,
+        "z": -4440.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -5152.0,
+        "y": 10840.0,
+        "z": -4440.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "TraZox Rotor",
+      "classname": "func_rotating",
+      "origin": {
+        "x": -5152.0,
+        "y": 10840.0,
+        "z": -4710.72
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "Map By Rotor",
+      "classname": "func_rotating",
+      "origin": {
+        "x": -5152.0,
+        "y": 10840.0,
+        "z": -4686.72
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_start",
+      "origin": {
+        "x": 9568.0,
+        "y": 3072.0,
+        "z": -6299.5
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12448.0,
+        "y": 3072.0,
+        "z": -6080.0
+      }
+    },
+    {
+      "scale": 512,
+      "fogEnabled": false,
+      "fogStart": 500.0,
+      "fogEnd": 2000.0,
+      "fogMaxDensity": 0.0,
+      "farZ": 0.0,
+      "fogColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "classname": "sky_camera",
+      "origin": {
+        "x": 9360.0,
+        "y": 1928.45,
+        "z": -5856.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9360.0,
+        "y": 1928.45,
+        "z": -5824.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12448.0,
+        "y": -4320.0,
+        "z": -6080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 11744.0,
+        "y": -4320.0,
+        "z": -6080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 11744.0,
+        "y": -6176.0,
+        "z": -6080.0
+      }
+    },
+    {
+      "model": 3,
+      "clusters": [
+        0,20
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 4,
+      "clusters": [
+        618,628,634,639,644,648,653,658,662,672
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 5,
+      "clusters": [
+        59,76
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 9568.0,
+        "y": 3112.0,
+        "z": -6304.0
+      }
+    },
+    {
+      "targetname": "Start",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 9568.0,
+        "y": 3072.0,
+        "z": -6288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 10672.0,
+        "y": 3112.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 12448.0,
+        "y": 288.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 12448.0,
+        "y": -2128.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 5536.0,
+        "y": -3688.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3040.0,
+        "y": -3688.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3040.0,
+        "y": -8672.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "targetname": "a",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 5528.0,
+        "y": -8672.0,
+        "z": -6376.0
+      }
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "model": 13,
+      "clusters": [
+        297,298,299
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 14,
+      "clusters": [
+        379,383
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 15,
+      "clusters": [
+        247,248,251,252
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 16,
+      "clusters": [
+        235,236,239
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 17,
+      "clusters": [
+        158
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 18,
+      "clusters": [
+        157,162
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 19,
+      "clusters": [
+        192
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -4768.0,
+        "y": -6144.0,
+        "z": -6096.0
+      }
+    },
+    {
+      "targetname": "b",
+      "classname": "func_physbox",
+      "origin": {
+        "x": -4768.0,
+        "y": -6144.0,
+        "z": -6128.0
+      }
+    },
+    {
+      "classname": "phys_motor",
+      "origin": {
+        "x": -4767.5,
+        "y": -6144.0,
+        "z": -5960.0
+      }
+    },
+    {
+      "targetname": "Orange",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5920.0,
+        "y": -6144.0,
+        "z": -5759.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -9040.0,
+        "y": -3560.0,
+        "z": -6104.0
+      }
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "model": 22,
+      "clusters": [
+        596,728
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11936.0,
+        "y": 992.0,
+        "z": -5536.0
+      }
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -8544.0,
+        "y": 1008.0,
+        "z": -5840.0
+      }
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -4400.0,
+        "y": 9440.0,
+        "z": -5600.0
+      }
+    },
+    {
+      "targetname": "Purple",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5152.0,
+        "y": 992.0,
+        "z": -5759.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "targetname": "fail1",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 12448.0,
+        "y": 2560.0,
+        "z": -6302.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "fail2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5872.0,
+        "y": -6176.0,
+        "z": -6302.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "fail4",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -11600.0,
+        "y": 976.0,
+        "z": -5758.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "classname": "func_areaportal"
+    },
+    {
+      "targetname": "Goal",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5160.0,
+        "y": 10842.0,
+        "z": -4555.28
+      }
+    },
+    {
+      "index": 0,
+      "clusters": [
+        47,49,57,65,69,71
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 1,
+      "clusters": [
+        59
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 2,
+      "clusters": [
+        0
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 3,
+      "clusters": [
+        158
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 4,
+      "clusters": [
+        157,162
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 5,
+      "clusters": [
+        192
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 6,
+      "clusters": [
+        298
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 7,
+      "clusters": [
+        235
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 8,
+      "clusters": [
+        247,251
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 9,
+      "clusters": [
+        379,383
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 10,
+      "clusters": [
+        95,102
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 11,
+      "clusters": [
+        95,102
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 12,
+      "clusters": [
+        102
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 13,
+      "clusters": [
+        95
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 14,
+      "clusters": [
+        95,102
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 15,
+      "clusters": [
+        95,102
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 16,
+      "clusters": [
+        121,126,138,140
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 17,
+      "clusters": [
+        121,126,138,140
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 18,
+      "clusters": [
+        126,140
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 19,
+      "clusters": [
+        121,138
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 20,
+      "clusters": [
+        121,126
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 21,
+      "clusters": [
+        138,140
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 22,
+      "clusters": [
+        596
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 23,
+      "clusters": [
+        579,580,582,584,586,592,607,705,706,707,724
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 24,
+      "clusters": [
+        579,580,582,584,586,592,607,705,706,707,724
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 25,
+      "clusters": [
+        592,724
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 26,
+      "clusters": [
+        579,607
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 27,
+      "clusters": [
+        579,580,581,582,583,584,585,586,587,592
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 28,
+      "clusters": [
+        607,705,706,707,724
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 29,
+      "clusters": [
+        394,401
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 30,
+      "clusters": [
+        790
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 31,
+      "clusters": [
+        599
+      ],
+      "classname": "displacement"
+    },
+    {
+      "model": 0,
+      "vertLighting": 0,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        793,790
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9855.9,
+        "y": -4344.52,
+        "z": -5886.65
+      },
+      "angles": {
+        "x": 25.2426,
+        "y": 253.558,
+        "z": 15.7955
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 1,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        602
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5151.96,
+        "y": 992.0,
+        "z": -5335.04
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 2,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        599
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4845.19,
+        "y": 697.654,
+        "z": -5568.0
+      },
+      "angles": {
+        "x": 28.5668,
+        "y": 183.031,
+        "z": 32.2136
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 3,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        65,64,63,54,53
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10906.5,
+        "y": 3008.0,
+        "z": -5933.24
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 4,
+      "albedoModulation": 256,
+      "flags": 8,
+      "clusters": [
+        20,0
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12448.6,
+        "y": 3054.08,
+        "z": -5879.13
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 5,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        59
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9248.52,
+        "y": 3351.92,
+        "z": -6294.65
+      },
+      "angles": {
+        "x": 25.2426,
+        "y": 343.558,
+        "z": 15.7955
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 6,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        44
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10958.7,
+        "y": 3374.96,
+        "z": -5771.9
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 7,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        0
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12752.3,
+        "y": 3375.66,
+        "z": -6124.75
+      },
+      "angles": {
+        "x": 28.5668,
+        "y": 273.031,
+        "z": 32.2136
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 8,
+      "albedoModulation": 256,
+      "flags": 8,
+      "clusters": [
+        158
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12416.0,
+        "y": -4320.0,
+        "z": -5888.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 9,
+      "albedoModulation": 256,
+      "flags": 8,
+      "clusters": [
+        158
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12754.3,
+        "y": -4620.62,
+        "z": -6123.31
+      },
+      "angles": {
+        "x": 28.5668,
+        "y": 183.031,
+        "z": 32.2136
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 10,
+      "albedoModulation": 256,
+      "flags": 8,
+      "clusters": [
+        162
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11776.0,
+        "y": -4320.0,
+        "z": -5888.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 11,
+      "albedoModulation": 256,
+      "flags": 8,
+      "clusters": [
+        162,157
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11441.0,
+        "y": -4032.15,
+        "z": -6129.41
+      },
+      "angles": {
+        "x": 28.5668,
+        "y": 3.03101,
+        "z": 32.2136
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 12,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        193,192,190
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11712.0,
+        "y": -6176.0,
+        "z": -5888.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 13,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        192
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12042.8,
+        "y": -6465.93,
+        "z": -6144.0
+      },
+      "angles": {
+        "x": 28.5668,
+        "y": 183.031,
+        "z": 32.2136
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 14,
+      "albedoModulation": 272,
+      "flags": 0,
+      "clusters": [
+        820,804
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8064.0,
+        "y": -5816.1,
+        "z": -5870.33
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 15,
+      "albedoModulation": 272,
+      "flags": 188,
+      "clusters": [
+        771,765
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11609.1,
+        "y": -2877.76,
+        "z": -5869.88
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 16,
+      "albedoModulation": 272,
+      "flags": 0,
+      "clusters": [
+        864,861,826,823
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10240.0,
+        "y": -6048.0,
+        "z": -5869.88
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "albedoModulation": 256,
+      "flags": 192,
+      "clusters": [
+        596
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12239.7,
+        "y": 1296.3,
+        "z": -5580.75
+      },
+      "angles": {
+        "x": 28.5668,
+        "y": 3.031,
+        "z": 32.2136
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 18,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        728
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11918.1,
+        "y": 992.6,
+        "z": -5335.13
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": -1,
+      "albedoModulation": 272,
+      "flags": 87,
+      "lightingOrigin": {
+        "x": 2.32174E-10,
+        "y": -1.55172682,
+        "z": 0.0
+      },
+      "clusters": [
+        401
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5152.0,
+        "y": 10840.0,
+        "z": -4639.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    }
+  ]
+}

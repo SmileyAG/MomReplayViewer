@@ -1,0 +1,19 @@
+{
+  "path": "materials/skybox/hybridrt.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 1024,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 0,
+      "url": "./resources/maps/ahop_timescale/materials/skybox/hybridrt.vtf/mip0.png"
+    }
+  ]
+}

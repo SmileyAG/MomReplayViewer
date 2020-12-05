@@ -1,0 +1,5452 @@
+{
+  "name": "ahop_orange",
+  "lightmapUrl": "./resources/maps/ahop_orange/lightmap.json?v=1ddc-9e34",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 2125,
+      "url": "./resources/maps/ahop_orange/geom/leafpage0.json?v=1ddc-9e34"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/ahop_orange/geom/disppage0.json?v=1ddc-9e34"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 45,
+      "url": "./resources/maps/ahop_orange/materials/matpage0.json?v=1ddc-9e34"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 23,
+      "url": "./resources/maps/ahop_orange/geom/bsppage0.json?v=1ddc-9e34"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 15,
+      "url": "./resources/maps/ahop_orange/geom/mdlpage0.json?v=1ddc-9e34"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 190,
+      "url": "./resources/maps/ahop_orange/geom/vhvpage0.json?v=1ddc-9e34"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 625,
+      "url": "./resources/maps/ahop_orange/geom/vispage0.json?v=1ddc-9e34"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 2125,
+      "url": "./resources/maps/ahop_orange/geom/ambientpage0.json?v=1ddc-9e34"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day02_10rt.vtf.json?v=1ddc-9e34"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day02_10lf.vtf.json?v=1ddc-9e34"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day02_10bk.vtf.json?v=1ddc-9e34"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day02_10ft.vtf.json?v=1ddc-9e34"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day02_10up.vtf.json?v=1ddc-9e34"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day02_10dn.vtf.json?v=1ddc-9e34"
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15656.0,
+        "y": 1888.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 14784.0,
+        "y": 2392.0,
+        "z": 323.714
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 14784.0,
+        "y": 3144.0,
+        "z": 323.714
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15456.0,
+        "y": 3144.0,
+        "z": 323.714
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15880.0,
+        "y": 2752.0,
+        "z": 323.714
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 13600.0,
+        "y": 2392.27,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 13600.0,
+        "y": 3144.0,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 11456.0,
+        "y": 2584.0,
+        "z": 848.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 11456.0,
+        "y": 2952.0,
+        "z": 848.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 10656.0,
+        "y": 2952.0,
+        "z": 848.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 10656.0,
+        "y": 2584.0,
+        "z": 848.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9792.0,
+        "y": 3400.0,
+        "z": 1008.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9792.0,
+        "y": 2136.0,
+        "z": 1008.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 8736.0,
+        "y": 3400.0,
+        "z": 1168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 8736.0,
+        "y": 2136.0,
+        "z": 1168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 7392.0,
+        "y": 2392.0,
+        "z": 975.852
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 7392.0,
+        "y": 3144.0,
+        "z": 975.852
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6656.0,
+        "y": 2768.0,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5968.0,
+        "y": 2160.0,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5968.0,
+        "y": 1648.0,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5560.0,
+        "y": 0.0,
+        "z": 1030.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6376.0,
+        "y": 0.0,
+        "z": 1030.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6376.0,
+        "y": -640.0,
+        "z": 1030.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5560.0,
+        "y": -640.0,
+        "z": 1030.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6152.0,
+        "y": -2112.0,
+        "z": 972.639
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5784.27,
+        "y": -2112.0,
+        "z": 972.639
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5464.0,
+        "y": -4976.0,
+        "z": 972.639
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6471.73,
+        "y": -4976.0,
+        "z": 972.639
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5967.73,
+        "y": -4648.0,
+        "z": 968.19
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6472.0,
+        "y": -5888.0,
+        "z": 1127.67
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5464.0,
+        "y": -5888.0,
+        "z": 1143.67
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5376.0,
+        "y": -8016.0,
+        "z": 1040.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4912.0,
+        "y": -8016.0,
+        "z": 1040.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4448.0,
+        "y": -8016.0,
+        "z": 1040.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3984.0,
+        "y": -8016.0,
+        "z": 1040.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3152.0,
+        "y": -8168.0,
+        "z": 933.646
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3496.0,
+        "y": -7680.0,
+        "z": 933.646
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2888.0,
+        "y": -7744.0,
+        "z": 1849.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3128.0,
+        "y": -7744.0,
+        "z": 1849.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3920.0,
+        "y": -7840.0,
+        "z": 1854.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3088.0,
+        "y": -176.0,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3600.0,
+        "y": -176.0,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2576.0,
+        "y": -176.0,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2960.0,
+        "y": 872.0,
+        "z": 1785.63
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2799.99,
+        "y": 119.998,
+        "z": 1865.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2976.0,
+        "y": 1184.0,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2516.58,
+        "y": 1773.13,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12224.0,
+        "y": -160.0,
+        "z": 1118.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12224.0,
+        "y": -896.0,
+        "z": 1390.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11488.0,
+        "y": -896.0,
+        "z": 1662.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11688.0,
+        "y": 112.007,
+        "z": 1862.9
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11776.0,
+        "y": 1096.0,
+        "z": 2201.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12264.0,
+        "y": 720.008,
+        "z": 2201.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5784.0,
+        "y": -7680.0,
+        "z": 951.031
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6152.0,
+        "y": -7680.0,
+        "z": 951.031
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12120.0,
+        "y": 623.989,
+        "z": 1101.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -13896.0,
+        "y": 784.009,
+        "z": 517.201
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -13896.0,
+        "y": 2288.01,
+        "z": 517.201
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11448.0,
+        "y": 2127.99,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11448.0,
+        "y": 3359.99,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12231.7,
+        "y": 3360.01,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11448.0,
+        "y": 6831.99,
+        "z": 1220.51
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12232.0,
+        "y": 6832.01,
+        "z": 1220.51
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11448.0,
+        "y": 6831.99,
+        "z": 2121.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12232.0,
+        "y": 6832.01,
+        "z": 2121.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11448.0,
+        "y": 5519.99,
+        "z": 2121.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12232.0,
+        "y": 5520.01,
+        "z": 2121.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11448.0,
+        "y": 4143.99,
+        "z": 2121.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12232.0,
+        "y": 4144.01,
+        "z": 2121.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11512.0,
+        "y": 4687.99,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12167.7,
+        "y": 4688.01,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12167.7,
+        "y": 5488.01,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11512.0,
+        "y": 5487.99,
+        "z": 1193.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2436.58,
+        "y": 2381.13,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2232.0,
+        "y": 496.01,
+        "z": 1865.98
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2496.0,
+        "y": 1184.0,
+        "z": 1966.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12776.0,
+        "y": 1192.0,
+        "z": 1089.05
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12776.0,
+        "y": 88.2813,
+        "z": 1089.05
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -13896.0,
+        "y": 784.009,
+        "z": 1101.2
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -13896.0,
+        "y": 2288.01,
+        "z": 1101.2
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12776.0,
+        "y": 1400.0,
+        "z": 1089.05
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -12776.0,
+        "y": 3016.0,
+        "z": 1089.05
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5464.0,
+        "y": -6560.0,
+        "z": 1143.67
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6472.0,
+        "y": -6560.0,
+        "z": 1127.67
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6112.62,
+        "y": 2648.59,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5968.0,
+        "y": 1088.0,
+        "z": 944.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6376.0,
+        "y": 656.0,
+        "z": 1030.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5560.0,
+        "y": 656.0,
+        "z": 1030.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6471.73,
+        "y": -3312.0,
+        "z": 972.639
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5464.0,
+        "y": -3312.0,
+        "z": 972.639
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12544.0,
+        "y": 2768.0,
+        "z": 974.96
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 14008.0,
+        "y": 2832.0,
+        "z": 657.827
+      }
+    },
+    {
+      "classname": "info_player_start",
+      "origin": {
+        "x": 15456.0,
+        "y": -704.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 255,
+        "G": 255,
+        "B": 249,
+        "A": 192
+      },
+      "Ambient": {
+        "R": 172,
+        "G": 196,
+        "B": 204,
+        "A": 100
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": -30.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": 15360.0,
+        "y": -704.0,
+        "z": 96.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "ah1",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 15456.0,
+        "y": -608.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 15456.0,
+        "y": 928.0,
+        "z": -64.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15256.0,
+        "y": 1888.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15656.0,
+        "y": 960.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15256.0,
+        "y": 960.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15656.0,
+        "y": 32.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15256.0,
+        "y": 32.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 10800.0,
+        "y": 2768.0,
+        "z": 632.0
+      }
+    },
+    {
+      "targetname": "ah2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 12304.0,
+        "y": 2768.0,
+        "z": 769.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "ah3",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5968.0,
+        "y": -1136.0,
+        "z": 769.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 5968.0,
+        "y": -3456.0,
+        "z": 648.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 4048.0,
+        "y": -4264.0,
+        "z": 1664.5
+      }
+    },
+    {
+      "targetname": "ah4",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 4096.0,
+        "y": -6976.0,
+        "z": 1713.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -1560.0,
+        "y": 448.0,
+        "z": 1696.5
+      }
+    },
+    {
+      "targetname": "ah5",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2288.0,
+        "y": 3072.0,
+        "z": 1713.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "ah6",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -12256.0,
+        "y": 127.999,
+        "z": 897.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "clusters": [
+        445,448,452
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -12316.5,
+        "y": 6973.5,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 7,
+      "clusters": [
+        434,437,444,445,448,452
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -12293.2,
+        "y": 7060.69,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 8,
+      "clusters": [
+        430,431,434,437,444
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -12245.6,
+        "y": 7148.54,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 9,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -12184.4,
+        "y": 7216.54,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 10,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11845.8,
+        "y": 7359.26,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 11,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11937.1,
+        "y": 7354.42,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 12,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -12032.9,
+        "y": 7325.94,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 13,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -12111.0,
+        "y": 7280.79,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 14,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11746.9,
+        "y": 7351.42,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 15,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11651.2,
+        "y": 7322.94,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 16,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11573.0,
+        "y": 7277.79,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 17,
+      "clusters": [
+        430,431
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11499.6,
+        "y": 7213.54,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 18,
+      "clusters": [
+        430,431,434,437,444
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11438.4,
+        "y": 7145.54,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 19,
+      "clusters": [
+        434,437,444
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11390.8,
+        "y": 7057.69,
+        "z": 1312.0
+      }
+    },
+    {
+      "model": 20,
+      "clusters": [
+        434,437,444
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -11367.5,
+        "y": 6970.5,
+        "z": 1312.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -11840.0,
+        "y": 5632.0,
+        "z": 1776.5
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -12336.0,
+        "y": 2058.66,
+        "z": 896.5
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15880.0,
+        "y": -688.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 15032.0,
+        "y": -688.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -11840.0,
+        "y": 3168.0,
+        "z": 2016.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11840.0,
+        "y": 3168.0,
+        "z": 2112.0
+      }
+    },
+    {
+      "targetname": "tonemap_global",
+      "classname": "env_tonemap_controller",
+      "origin": {
+        "x": 15360.0,
+        "y": -672.0,
+        "z": 96.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11840.0,
+        "y": 2776.0,
+        "z": 2225.98
+      }
+    },
+    {
+      "classname": "water_lod_control"
+    },
+    {
+      "model": 6,
+      "vertLighting": 0,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        28
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15178.0,
+        "y": 32.101,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 1,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        13
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15733.7,
+        "y": 31.899,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 2,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        28
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15178.0,
+        "y": 960.101,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 3,
+      "albedoModulation": 256,
+      "flags": 190,
+      "lightingOrigin": {
+        "x": 2.89369678,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15178.0,
+        "y": 1888.1,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 4,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        13
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15734.0,
+        "y": 959.899,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 5,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        10
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15734.0,
+        "y": 1887.9,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 6,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        15
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 14783.9,
+        "y": 2314.01,
+        "z": 325.167
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 7,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 14784.1,
+        "y": 3221.99,
+        "z": 325.167
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 8,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        0
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15456.1,
+        "y": 3221.99,
+        "z": 325.167
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 9,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        5
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15958.0,
+        "y": 2751.9,
+        "z": 325.167
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 10,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        20
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13599.9,
+        "y": 2314.28,
+        "z": 945.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 11,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        2
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13600.1,
+        "y": 3221.99,
+        "z": 945.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 12,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        46
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11455.9,
+        "y": 2506.01,
+        "z": 849.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 13,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        46
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11456.1,
+        "y": 3029.99,
+        "z": 849.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 14,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        51
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10656.1,
+        "y": 3029.99,
+        "z": 849.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 15,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        51
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10655.9,
+        "y": 2506.01,
+        "z": 849.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 16,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9792.1,
+        "y": 3477.99,
+        "z": 1009.45
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 17,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        56
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9791.9,
+        "y": 2058.01,
+        "z": 1009.45
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 18,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        67
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8736.1,
+        "y": 3477.99,
+        "z": 1169.45
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 19,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        72
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8735.9,
+        "y": 2058.01,
+        "z": 1169.45
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 20,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        74
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7391.9,
+        "y": 2314.01,
+        "z": 977.301
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 21,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        69
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7392.1,
+        "y": 3221.99,
+        "z": 977.301
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 22,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        76
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6656.04,
+        "y": 2768.06,
+        "z": 1021.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 23,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        78
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5968.06,
+        "y": 2159.96,
+        "z": 1021.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 24,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        79
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5968.06,
+        "y": 1647.96,
+        "z": 1021.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 25,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        129,84
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5482.01,
+        "y": 0.0999756,
+        "z": 1032.27
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 26,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        128,81
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6453.99,
+        "y": -0.0999756,
+        "z": 1032.27
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 27,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        128
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6453.99,
+        "y": -640.1,
+        "z": 1032.27
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 28,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        129
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5482.01,
+        "y": -639.9,
+        "z": 1032.27
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 29,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        139
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6229.99,
+        "y": -2112.1,
+        "z": 974.089
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 30,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        145
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5706.28,
+        "y": -2111.9,
+        "z": 974.089
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 31,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        159
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5386.0,
+        "y": -4975.9,
+        "z": 974.089
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 32,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": -1.82495642,
+        "y": 1.36210086E-27,
+        "z": -1.41565871
+      },
+      "clusters": [
+        154
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6549.72,
+        "y": -4976.1,
+        "z": 974.089
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 33,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.82275927,
+        "y": -3.68173858E-31,
+        "z": 1.41452074
+      },
+      "clusters": [
+        158
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5967.63,
+        "y": -4725.99,
+        "z": 969.64
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 34,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.82275927,
+        "y": -3.68173858E-31,
+        "z": 1.41452074
+      },
+      "clusters": [
+        231
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6549.99,
+        "y": -5888.1,
+        "z": 1129.12
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 35,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.81693816,
+        "y": 8038768.0,
+        "z": -1.41565883
+      },
+      "clusters": [
+        238
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5386.0,
+        "y": -5887.9,
+        "z": 1145.12
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 36,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        260
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5376.1,
+        "y": -8016.04,
+        "z": 1117.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 37,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        315
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4912.1,
+        "y": -8016.04,
+        "z": 1117.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 38,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        315
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4448.1,
+        "y": -8016.04,
+        "z": 1117.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 39,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        321
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3984.1,
+        "y": -8016.04,
+        "z": 1117.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 40,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        329,325,324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3158.9,
+        "y": -7781.47,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 41,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3414.9,
+        "y": -7781.47,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 42,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3415.1,
+        "y": -7898.53,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 43,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        329,325,324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3159.1,
+        "y": -7898.53,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 44,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2970.5,
+        "y": -7592.87,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 45,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        334,329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2970.5,
+        "y": -8086.87,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 46,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        334,333
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2853.5,
+        "y": -8128.13,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 47,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        333
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2853.5,
+        "y": -7872.13,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 48,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        333
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2853.5,
+        "y": -7616.13,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 49,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        328
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3151.9,
+        "y": -8246.0,
+        "z": 935.096
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 50,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3574.0,
+        "y": -7680.1,
+        "z": 935.096
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 51,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2966.0,
+        "y": -7744.1,
+        "z": 1851.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 52,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3050.0,
+        "y": -7743.9,
+        "z": 1851.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 53,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        320
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3920.0,
+        "y": -7840.1,
+        "z": 1932.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 54,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        117
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2462.87,
+        "y": 474.5,
+        "z": 1731.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 55,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        117
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2718.87,
+        "y": 474.5,
+        "z": 1731.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 56,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        117,102
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2974.87,
+        "y": 474.5,
+        "z": 1731.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 57,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        116
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2527.13,
+        "y": 965.499,
+        "z": 1731.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 58,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        181,166
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3088.0,
+        "y": -176.1,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 59,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        166
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3600.0,
+        "y": -176.1,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 60,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        181
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2576.0,
+        "y": -176.1,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 61,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        117
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2960.1,
+        "y": 950.0,
+        "z": 1787.08
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 62,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        117
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2799.89,
+        "y": 41.998,
+        "z": 1867.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 63,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        114
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2976.0,
+        "y": 1183.9,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 64,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        112
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2516.48,
+        "y": 1773.12,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 8.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 65,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        613
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12224.1,
+        "y": -160.0,
+        "z": 1196.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 66,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        619
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12224.1,
+        "y": -896.0,
+        "z": 1468.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 67,
+      "albedoModulation": 256,
+      "flags": 61,
+      "clusters": [
+        618
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11488.1,
+        "y": -896.0,
+        "z": 1740.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 68,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        589
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11766.0,
+        "y": 112.106,
+        "z": 1864.35
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 69,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        558
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11775.9,
+        "y": 1174.0,
+        "z": 2203.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 70,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        592
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12342.0,
+        "y": 720.107,
+        "z": 2203.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 71,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        256
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5706.0,
+        "y": -7679.9,
+        "z": 952.481
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 72,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        253
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6230.0,
+        "y": -7680.1,
+        "z": 952.481
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 73,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        586
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12132.5,
+        "y": 776.13,
+        "z": 2035.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 74,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        586
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12132.5,
+        "y": 520.13,
+        "z": 2035.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 75,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        585
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11687.9,
+        "y": 964.499,
+        "z": 2035.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 76,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        585
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11943.9,
+        "y": 964.499,
+        "z": 2035.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 77,
+      "albedoModulation": 256,
+      "flags": 190,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        585
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11431.9,
+        "y": 964.499,
+        "z": 2035.82
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 78,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        376,367
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 784.0,
+        "y": 3852.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 79,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        367
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 784.0,
+        "y": 4360.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 80,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        367,348
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 784.0,
+        "y": 5376.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 81,
+      "albedoModulation": 256,
+      "flags": 59,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        367,348
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 784.0,
+        "y": 4868.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 82,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        371,357
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -48.0,
+        "y": 5376.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 83,
+      "albedoModulation": 256,
+      "flags": 61,
+      "clusters": [
+        371,357
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -48.0,
+        "y": 4868.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 84,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        379,371
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -48.0,
+        "y": 3852.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 85,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        371
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -48.0,
+        "y": 4360.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 86,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        590
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12042.0,
+        "y": 623.889,
+        "z": 1102.45
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 87,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        609
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13974.0,
+        "y": 784.109,
+        "z": 518.652
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 88,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        598
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13974.0,
+        "y": 2288.11,
+        "z": 518.652
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 89,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        547
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11370.0,
+        "y": 2127.89,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 90,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        526
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11370.0,
+        "y": 3359.89,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 91,
+      "albedoModulation": 256,
+      "flags": 62,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        530
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12309.7,
+        "y": 3360.11,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 92,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        437
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11370.0,
+        "y": 6831.89,
+        "z": 1221.96
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 93,
+      "albedoModulation": 256,
+      "flags": 190,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        448
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12310.0,
+        "y": 6832.11,
+        "z": 1221.96
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 94,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        434
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11370.0,
+        "y": 6831.89,
+        "z": 2123.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 95,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        445
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12310.0,
+        "y": 6832.11,
+        "z": 2123.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 96,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        453
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11370.0,
+        "y": 5519.89,
+        "z": 2123.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 97,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        456
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12310.0,
+        "y": 5520.11,
+        "z": 2123.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 98,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        483
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11370.0,
+        "y": 4143.89,
+        "z": 2123.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 99,
+      "albedoModulation": 256,
+      "flags": 187,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        489
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12310.0,
+        "y": 4144.11,
+        "z": 2123.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 100,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        486
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11434.0,
+        "y": 4687.89,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 101,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        486
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12245.7,
+        "y": 4688.11,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 102,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        455
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12245.7,
+        "y": 5488.11,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 103,
+      "albedoModulation": 256,
+      "flags": 59,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        455
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11434.0,
+        "y": 5487.89,
+        "z": 1195.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 104,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        107
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2436.48,
+        "y": 2381.12,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 8.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 105,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        382,373
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 3852.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 106,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        373
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 4360.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 107,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        373,359
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 4868.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 108,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        373,359
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 5376.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 109,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        392,388
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 1820.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 110,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        388
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 2328.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 111,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        388,382
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 2836.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 112,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        382
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -912.0,
+        "y": 3344.0,
+        "z": 2124.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 113,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        117
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2154.0,
+        "y": 496.11,
+        "z": 1867.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 114,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        114
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2496.0,
+        "y": 1183.9,
+        "z": 2044.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 115,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        564
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12775.9,
+        "y": 1270.0,
+        "z": 1090.5
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 116,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        594
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12776.1,
+        "y": 10.2813,
+        "z": 1090.5
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 117,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        609
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13974.0,
+        "y": 784.109,
+        "z": 1102.65
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 118,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        598
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13974.0,
+        "y": 2288.11,
+        "z": 1102.65
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 119,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        561
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12776.1,
+        "y": 1322.0,
+        "z": 1090.5
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 120,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        531
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12775.9,
+        "y": 3094.0,
+        "z": 1090.5
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 121,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        247
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5386.0,
+        "y": -6559.9,
+        "z": 1145.12
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 122,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        244
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6549.99,
+        "y": -6560.1,
+        "z": 1129.12
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 123,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        78
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6112.63,
+        "y": 2648.52,
+        "z": 1021.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 124,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        79
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5968.06,
+        "y": 1087.96,
+        "z": 1021.57
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 125,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        80
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6453.99,
+        "y": 655.9,
+        "z": 1032.27
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 126,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        83
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5482.01,
+        "y": 656.1,
+        "z": 1032.27
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 127,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        149
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6549.72,
+        "y": -3312.1,
+        "z": 974.089
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 128,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.40381956,
+        "y": -1.21911573E+14,
+        "z": -1.66452062
+      },
+      "clusters": [
+        151
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5386.0,
+        "y": -3311.9,
+        "z": 974.089
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 129,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.40013242,
+        "y": 3.360942E+08,
+        "z": -1.65756226
+      },
+      "clusters": [
+        122
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 15957.7,
+        "y": -688.101,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 130,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.403817,
+        "y": 1.9447763E+28,
+        "z": -1.64628649
+      },
+      "clusters": [
+        126
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 14954.3,
+        "y": -687.899,
+        "z": 305.453
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 131,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.40013242,
+        "y": -1.930782E+27,
+        "z": -1.6645205
+      },
+      "clusters": [
+        42
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12544.0,
+        "y": 2768.06,
+        "z": 1052.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 132,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.39991927,
+        "y": 6.816741E-38,
+        "z": -1.6387105
+      },
+      "clusters": [
+        22
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13930.0,
+        "y": 2832.1,
+        "z": 659.28
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 133,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.396324,
+        "y": -1.78442338E-35,
+        "z": -1.65756238
+      },
+      "clusters": [
+        21
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13882.0,
+        "y": 2534.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 134,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.39991927,
+        "y": 1.74942715E+33,
+        "z": -1.64628673
+      },
+      "clusters": [
+        21
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13912.0,
+        "y": 2632.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 135,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.403817,
+        "y": 1.31141251E+29,
+        "z": -1.65756249
+      },
+      "clusters": [
+        21
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13912.0,
+        "y": 2887.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 136,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.402083,
+        "y": -1.572737E+18,
+        "z": -1.64652514
+      },
+      "clusters": [
+        21
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13912.0,
+        "y": 2759.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 137,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.40013242,
+        "y": -1.0691723E-28,
+        "z": -1.66452086
+      },
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13912.0,
+        "y": 3142.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 138,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.40211463,
+        "y": -487.057617,
+        "z": -1.62789059
+      },
+      "clusters": [
+        21,4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13912.0,
+        "y": 3014.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 139,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.40060759,
+        "y": -0.7360554,
+        "z": -1.52675045
+      },
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13912.0,
+        "y": 3227.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 140,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.39991927,
+        "y": 1.32986967E-32,
+        "z": -1.64628661
+      },
+      "clusters": [
+        21
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13784.0,
+        "y": 2504.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 141,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.18693411,
+        "y": 6.331047E-14,
+        "z": -1.66639137
+      },
+      "clusters": [
+        21
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13657.0,
+        "y": 2504.0,
+        "z": 787.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 142,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.42101741,
+        "y": 2.148846E+18,
+        "z": -1.64478946
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 1632.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 143,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -1.28010058,
+        "y": -7948.797,
+        "z": -1.64478946
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 1504.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 144,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.39991927,
+        "y": -2.54059479E+11,
+        "z": -1.64628637
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 1248.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 145,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.403817,
+        "y": -4.406411E-08,
+        "z": -1.66420317
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 1376.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 146,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.51133192,
+        "y": 3.7335147E-37,
+        "z": -1.63721323
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 736.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 147,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.51133192,
+        "y": 1.70131019E-21,
+        "z": -1.63721323
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 864.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 148,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -1.42425442,
+        "y": 0.00237396359,
+        "z": -1.63721335
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 992.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 149,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -1.42425442,
+        "y": -0.000136654358,
+        "z": -1.63721323
+      },
+      "clusters": [
+        331
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": -7424.0,
+        "z": 1120.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 3,
+      "vertLighting": 150,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.51133192,
+        "y": -1.61629643E-09,
+        "z": -1.637213
+      },
+      "clusters": [
+        329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2999.0,
+        "y": -7753.0,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 3,
+      "vertLighting": 151,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -1.42425442,
+        "y": -9.50640043E+24,
+        "z": -1.63721311
+      },
+      "clusters": [
+        329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2999.0,
+        "y": -7927.0,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 152,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.18693411,
+        "y": -8.677176E+13,
+        "z": -1.58070636
+      },
+      "clusters": [
+        329
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2970.5,
+        "y": -7404.05,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 153,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.15321422,
+        "y": -2.228677E+17,
+        "z": -1.58370113
+      },
+      "clusters": [
+        333
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2853.5,
+        "y": -7424.6,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 154,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.40388274,
+        "y": 0.009681761,
+        "z": -1.583701
+      },
+      "clusters": [
+        334
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2970.5,
+        "y": -8277.0,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 155,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.40388274,
+        "y": -8.46312243E+09,
+        "z": -1.58370078
+      },
+      "clusters": [
+        324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3522.4,
+        "y": -7898.52,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 156,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 1.18693411,
+        "y": -1.71163172E-29,
+        "z": -1.58370042
+      },
+      "clusters": [
+        324
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3521.6,
+        "y": -7781.43,
+        "z": 1731.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 4,
+      "vertLighting": 157,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.40388274,
+        "y": 1.50893626E-17,
+        "z": -1.5837003
+      },
+      "clusters": [
+        303,299,289
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3550.4,
+        "y": -6240.0,
+        "z": 1920.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 5,
+      "vertLighting": 158,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -1.25189912,
+        "y": 1.99941181E+33,
+        "z": -1.5807066
+      },
+      "clusters": [
+        227,226,209,208,207,199,198,195
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3040.0,
+        "y": -3008.0,
+        "z": 1792.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 10,
+      "vertLighting": 159,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": -2.16109657,
+        "y": 6.83667861E+30,
+        "z": -1.58070648
+      },
+      "clusters": [
+        273,272,271,270,269,268,267,266,265
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4672.0,
+        "y": -5568.0,
+        "z": 1920.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 3,
+      "vertLighting": 160,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": -2.401938,
+        "y": 1.33495521E-36,
+        "z": 1.66586947
+      },
+      "clusters": [
+        588,586,585
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12104.0,
+        "y": 936.0,
+        "z": 2035.51
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 161,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 2.40418,
+        "y": 2.00592662E+24,
+        "z": 1.66586936
+      },
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 356.62,
+        "y": 4900.15,
+        "z": 2028.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 162,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 2.16170025,
+        "y": 3.16137051E+37,
+        "z": 1.66586924
+      },
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 204.24,
+        "y": 4900.15,
+        "z": 2028.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 163,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.459473,
+        "y": 1.23555021E+10,
+        "z": -1.61414278
+      },
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 356.38,
+        "y": 5292.0,
+        "z": 2028.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 164,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.40387654,
+        "y": 6.137886E+15,
+        "z": -1.62706769
+      },
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 204.0,
+        "y": 5292.0,
+        "z": 2028.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 165,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.4038322,
+        "y": -6.184463E-14,
+        "z": -1.597127
+      },
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 504.62,
+        "y": 4900.15,
+        "z": 2028.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 166,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.40378141,
+        "y": 1.20173271E+29,
+        "z": -1.61414218
+      },
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 504.38,
+        "y": 5292.0,
+        "z": 2028.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 167,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.586676836,
+        "y": 3.75489026E+19,
+        "z": -1.62789071
+      },
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 504.62,
+        "y": 4900.15,
+        "z": 2156.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 168,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 0.5866785,
+        "y": 9.137876E+16,
+        "z": -1.64652514
+      },
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 504.38,
+        "y": 5292.0,
+        "z": 2156.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 169,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.15941644,
+        "y": 7.2026104E+18,
+        "z": -1.62785888
+      },
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 356.38,
+        "y": 5292.0,
+        "z": 2156.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 170,
+      "albedoModulation": 256,
+      "flags": 191,
+      "lightingOrigin": {
+        "x": 2.40319848,
+        "y": -6.36920561E-09,
+        "z": -1.64652538
+      },
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 204.24,
+        "y": 4900.15,
+        "z": 2156.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 171,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 356.62,
+        "y": 4900.15,
+        "z": 2156.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 172,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 204.0,
+        "y": 5292.0,
+        "z": 2156.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 173,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 356.62,
+        "y": 4900.0,
+        "z": 2284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 174,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 204.24,
+        "y": 4900.0,
+        "z": 2284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 175,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        368,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 204.0,
+        "y": 5291.85,
+        "z": 2284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 12,
+      "vertLighting": 176,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        385
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1456.0,
+        "y": 4304.0,
+        "z": 2028.9
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 13,
+      "vertLighting": 177,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        401
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1456.0,
+        "y": 2800.0,
+        "z": 2170.19
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 178,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        356,349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -16.0,
+        "y": 5408.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 179,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 752.0,
+        "y": 5408.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 180,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 752.0,
+        "y": 4768.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 181,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        370,368
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -16.0,
+        "y": 4768.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 182,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        402,393
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 1696.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 183,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        401,389
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 2336.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 184,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        401,389
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 2976.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 185,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        386,383
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 3616.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 186,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        385,374
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 4256.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 187,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        385,374
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 4896.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 188,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        364,360
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -944.0,
+        "y": 5488.0,
+        "z": 1968.11
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 189,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        545
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11840.1,
+        "y": 2698.0,
+        "z": 2227.43
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    }
+  ]
+}

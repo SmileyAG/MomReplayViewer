@@ -1,0 +1,19 @@
+{
+  "path": "materials/skybox/renelf.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 1024,
+  "params": {
+    "wrapS": 10497,
+    "wrapT": 10497,
+    "filter": 9729,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 0,
+      "url": "./resources/maps/ahop_reptile/materials/skybox/renelf.vtf/mip0.png"
+    }
+  ]
+}

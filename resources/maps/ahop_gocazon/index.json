@@ -1,0 +1,4628 @@
+{
+  "name": "ahop_gocazon",
+  "lightmapUrl": "./resources/maps/ahop_gocazon/lightmap.json?v=1ddc-9e02",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 658,
+      "url": "./resources/maps/ahop_gocazon/geom/leafpage0.json?v=1ddc-9e02"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/ahop_gocazon/geom/disppage0.json?v=1ddc-9e02"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 24,
+      "url": "./resources/maps/ahop_gocazon/materials/matpage0.json?v=1ddc-9e02"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 70,
+      "url": "./resources/maps/ahop_gocazon/geom/bsppage0.json?v=1ddc-9e02"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 3,
+      "url": "./resources/maps/ahop_gocazon/geom/mdlpage0.json?v=1ddc-9e02"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 115,
+      "url": "./resources/maps/ahop_gocazon/geom/vhvpage0.json?v=1ddc-9e02"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 74,
+      "url": "./resources/maps/ahop_gocazon/geom/vispage0.json?v=1ddc-9e02"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 658,
+      "url": "./resources/maps/ahop_gocazon/geom/ambientpage0.json?v=1ddc-9e02"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/maps/ahop_gocazon/materials/skybox/sky_day01_01rt.vtf.json?v=1ddc-9e02"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/maps/ahop_gocazon/materials/skybox/sky_day01_01lf.vtf.json?v=1ddc-9e02"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/maps/ahop_gocazon/materials/skybox/sky_day01_01bk.vtf.json?v=1ddc-9e02"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/maps/ahop_gocazon/materials/skybox/sky_day01_01ft.vtf.json?v=1ddc-9e02"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/maps/ahop_gocazon/materials/skybox/sky_day01_01up.vtf.json?v=1ddc-9e02"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/maps/ahop_gocazon/materials/skybox/sky_day01_01dn.vtf.json?v=1ddc-9e02"
+          },
+          {
+            "name": "aspect",
+            "type": 2,
+            "value": 2.0
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 1887.99,
+        "y": 320.0,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1887.99,
+        "y": 320.0,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3695.99,
+        "y": 319.99,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3695.99,
+        "y": 319.99,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3504.0,
+        "y": 384.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3504.0,
+        "y": 384.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3856.0,
+        "y": 288.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3856.0,
+        "y": 288.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4272.0,
+        "y": 288.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4272.0,
+        "y": 288.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3423.99,
+        "y": 767.99,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3423.99,
+        "y": 767.99,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 895.99,
+        "y": 767.99,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 895.99,
+        "y": 767.99,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2500.84,
+        "y": 1215.99,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2500.84,
+        "y": 1215.99,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 928.0,
+        "y": 320.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 928.0,
+        "y": 320.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1386.0,
+        "z": -364.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1332.0,
+        "z": -364.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1264.0,
+        "z": -364.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1196.0,
+        "z": -364.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1128.0,
+        "z": -364.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1060.0,
+        "z": -364.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1386.0,
+        "z": -324.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1332.0,
+        "z": -324.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1264.0,
+        "z": -324.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1196.0,
+        "z": -324.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1128.0,
+        "z": -324.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1060.0,
+        "z": -324.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1386.0,
+        "z": -284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1332.0,
+        "z": -284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1264.0,
+        "z": -284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1196.0,
+        "z": -284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1128.0,
+        "z": -284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1060.0,
+        "z": -284.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1386.0,
+        "z": -244.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1332.0,
+        "z": -244.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1264.0,
+        "z": -244.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1196.0,
+        "z": -244.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1128.0,
+        "z": -244.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1060.0,
+        "z": -244.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1385.0,
+        "z": -205.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1331.0,
+        "z": -205.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1263.0,
+        "z": -205.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1195.0,
+        "z": -205.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1127.0,
+        "z": -205.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2708.0,
+        "y": 1059.0,
+        "z": -205.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3314.83,
+        "y": 1663.99,
+        "z": -397.6
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3314.83,
+        "y": 1663.99,
+        "z": -425.6
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 384.0,
+        "y": 1663.99,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 384.0,
+        "y": 1663.99,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 221.98,
+        "y": 1888.0,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 221.98,
+        "y": 1888.0,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3144.0,
+        "y": 2111.99,
+        "z": -366.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3144.0,
+        "y": 2111.99,
+        "z": -376.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 1870.88,
+        "y": 1196.0,
+        "z": -307.2
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1870.88,
+        "y": 1196.0,
+        "z": -323.2
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4096.0,
+        "y": 864.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4096.0,
+        "y": 864.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3712.0,
+        "y": 864.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3712.0,
+        "y": 864.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3712.0,
+        "y": 672.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3712.0,
+        "y": 672.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3200.0,
+        "y": 864.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3200.0,
+        "y": 864.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3200.0,
+        "y": 672.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3200.0,
+        "y": 672.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2560.0,
+        "y": 864.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2560.0,
+        "y": 864.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2560.0,
+        "y": 672.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2560.0,
+        "y": 672.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4352.0,
+        "y": 864.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4352.0,
+        "y": 864.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4352.0,
+        "y": 672.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4352.0,
+        "y": 672.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4096.0,
+        "y": 672.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4096.0,
+        "y": 672.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "info_player_start",
+      "origin": {
+        "x": 192.0,
+        "y": 320.0,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 304.0,
+        "y": 544.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "item_suit",
+      "origin": {
+        "x": 192.0,
+        "y": 320.0,
+        "z": -352.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "DMG",
+      "classname": "filter_damage_type",
+      "origin": {
+        "x": 241.647,
+        "y": 240.0,
+        "z": -344.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 191.53,
+        "y": 287.6,
+        "z": -312.0
+      }
+    },
+    {
+      "targetname": "cp1",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 192.0,
+        "y": 320.0,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "cp2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2720.0,
+        "y": 316.362,
+        "z": -352.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 912.0,
+        "y": 544.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1840.0,
+        "y": 544.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2768.0,
+        "y": 544.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3664.0,
+        "y": 544.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4720.0,
+        "y": 544.0,
+        "z": 128.0
+      }
+    },
+    {
+      "targetname": "NameFilter",
+      "classname": "filter_activator_name",
+      "origin": {
+        "x": 227.658,
+        "y": 175.584,
+        "z": -351.0
+      }
+    },
+    {
+      "targetname": "cp3",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 4559.43,
+        "y": 762.64,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "cp4",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 344.905,
+        "y": 1181.63,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3120.0,
+        "y": 320.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3120.0,
+        "y": 320.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1088.0,
+        "y": 1216.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 1088.0,
+        "y": 1216.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4256.0,
+        "y": 1216.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4816.0,
+        "y": 1664.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4896.0,
+        "y": 1440.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4256.0,
+        "y": 1216.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4816.0,
+        "y": 1664.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4880.0,
+        "y": 1440.0,
+        "z": -351.0
+      }
+    },
+    {
+      "targetname": "cp5",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 3296.0,
+        "y": 1216.0,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "cp7",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 464.0,
+        "y": 2112.0,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "cp6",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1440.0,
+        "y": 1664.0,
+        "z": -351.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1000.0,
+        "y": 2112.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 1000.0,
+        "y": 2112.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 984.0,
+        "y": 1664.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 984.0,
+        "y": 1664.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2864.0,
+        "y": 2112.0,
+        "z": -351.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2864.0,
+        "y": 2112.0,
+        "z": -349.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2128.0,
+        "y": 2112.0,
+        "z": -287.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2128.0,
+        "y": 2112.0,
+        "z": -285.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2128.0,
+        "y": 2112.0,
+        "z": -143.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2128.0,
+        "y": 2112.0,
+        "z": -141.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 224.0,
+        "y": 1440.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 832.0,
+        "y": 1440.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1760.0,
+        "y": 1440.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2688.0,
+        "y": 1440.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3584.0,
+        "y": 1440.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4640.0,
+        "y": 1440.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 224.0,
+        "y": 2336.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 832.0,
+        "y": 2336.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1760.0,
+        "y": 2336.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2688.0,
+        "y": 2336.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3584.0,
+        "y": 2336.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4640.0,
+        "y": 2336.0,
+        "z": 128.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 569.0,
+        "y": 544.0,
+        "z": -348.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 640.0,
+        "y": 544.0,
+        "z": -312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 500.0,
+        "y": 544.0,
+        "z": -252.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 496.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 496.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 496.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 496.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 457.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 457.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 457.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 457.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 832.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 832.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 832.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 832.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 872.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 872.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 872.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 872.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 772.0,
+        "y": 1007.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 772.0,
+        "y": 977.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 772.0,
+        "y": 1007.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 772.0,
+        "y": 977.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 812.0,
+        "y": 1007.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 812.0,
+        "y": 977.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 812.0,
+        "y": 977.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 812.0,
+        "y": 1007.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1528.0,
+        "y": 1007.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1528.0,
+        "y": 977.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1528.0,
+        "y": 1007.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1528.0,
+        "y": 977.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1568.0,
+        "y": 1007.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1568.0,
+        "y": 977.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1568.0,
+        "y": 977.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1568.0,
+        "y": 1007.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1204.0,
+        "y": 1455.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1204.0,
+        "y": 1425.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1204.0,
+        "y": 1455.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1204.0,
+        "y": 1425.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1244.0,
+        "y": 1455.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1244.0,
+        "y": 1425.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1244.0,
+        "y": 1425.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1244.0,
+        "y": 1455.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1536.0,
+        "y": 1903.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1536.0,
+        "y": 1873.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1536.0,
+        "y": 1903.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1536.0,
+        "y": 1873.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1576.0,
+        "y": 1903.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1576.0,
+        "y": 1873.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1576.0,
+        "y": 1873.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 1576.0,
+        "y": 1903.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2776.0,
+        "y": 111.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2776.0,
+        "y": 79.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2776.0,
+        "y": 111.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2776.0,
+        "y": 79.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2816.0,
+        "y": 111.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2816.0,
+        "y": 79.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2816.0,
+        "y": 79.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 2816.0,
+        "y": 111.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3000.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3000.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3000.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3000.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3040.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3040.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3040.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3040.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3860.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3860.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3860.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3860.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3900.0,
+        "y": 559.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3900.0,
+        "y": 529.0,
+        "z": -172.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3900.0,
+        "y": 529.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3900.0,
+        "y": 559.0,
+        "z": -196.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3456.0,
+        "y": 111.0,
+        "z": -228.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3456.0,
+        "y": 79.0,
+        "z": -228.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3456.0,
+        "y": 111.0,
+        "z": -252.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3456.0,
+        "y": 79.0,
+        "z": -252.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3496.0,
+        "y": 111.0,
+        "z": -228.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3496.0,
+        "y": 79.0,
+        "z": -228.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3496.0,
+        "y": 79.0,
+        "z": -252.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_physics_override",
+      "origin": {
+        "x": 3496.0,
+        "y": 111.0,
+        "z": -252.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "spongebob",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -144.0,
+        "y": 304.0,
+        "z": -317.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -144.0,
+        "y": 304.0,
+        "z": -272.0
+      }
+    },
+    {
+      "classname": "water_lod_control"
+    },
+    {
+      "model": 0,
+      "vertLighting": 0,
+      "flags": 0,
+      "clusters": [
+        72
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 224.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 1,
+      "flags": 0,
+      "clusters": [
+        72
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 560.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 2,
+      "flags": 0,
+      "clusters": [
+        72,66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 896.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 3,
+      "flags": 0,
+      "clusters": [
+        66,65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1904.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 4,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1568.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 5,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1232.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 6,
+      "flags": 0,
+      "clusters": [
+        60
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 7,
+      "flags": 0,
+      "clusters": [
+        65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2576.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 8,
+      "flags": 0,
+      "clusters": [
+        65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2240.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 9,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3920.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 10,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 11,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3248.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 12,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4592.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 13,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4256.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 14,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4912.0,
+        "y": 96.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 15,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4584.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 16,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4256.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 17,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3920.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 18,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 19,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3248.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 20,
+      "flags": 0,
+      "clusters": [
+        60
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 21,
+      "flags": 0,
+      "clusters": [
+        65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2576.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 22,
+      "flags": 0,
+      "clusters": [
+        65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2240.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 23,
+      "flags": 0,
+      "clusters": [
+        66,65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1904.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 24,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1568.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 25,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1232.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 26,
+      "flags": 0,
+      "clusters": [
+        68,66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 896.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 27,
+      "flags": 0,
+      "clusters": [
+        68
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 560.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 28,
+      "flags": 0,
+      "clusters": [
+        68
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 224.0,
+        "y": 544.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 29,
+      "flags": 0,
+      "clusters": [
+        26,25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4240.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 30,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3904.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 31,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3568.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 32,
+      "flags": 0,
+      "clusters": [
+        26
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3232.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 33,
+      "flags": 0,
+      "clusters": [
+        65,61,60
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2896.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 34,
+      "flags": 0,
+      "clusters": [
+        65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2560.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 35,
+      "flags": 0,
+      "clusters": [
+        65
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2224.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 36,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1888.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 37,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1552.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 38,
+      "flags": 0,
+      "clusters": [
+        66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1216.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 39,
+      "flags": 0,
+      "clusters": [
+        68,66
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 880.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 40,
+      "flags": 0,
+      "clusters": [
+        68
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 544.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 41,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4576.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 42,
+      "flags": 0,
+      "clusters": [
+        25
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4904.0,
+        "y": 992.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 43,
+      "flags": 0,
+      "clusters": [
+        19
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3920.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 44,
+      "flags": 0,
+      "clusters": [
+        19
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 45,
+      "flags": 0,
+      "clusters": [
+        19
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3248.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 46,
+      "flags": 0,
+      "clusters": [
+        37
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 47,
+      "flags": 0,
+      "clusters": [
+        37
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2576.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 48,
+      "flags": 0,
+      "clusters": [
+        44,43,37
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2240.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 49,
+      "flags": 0,
+      "clusters": [
+        50,44
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1904.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 50,
+      "flags": 0,
+      "clusters": [
+        50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1568.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 51,
+      "flags": 0,
+      "clusters": [
+        50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1232.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 52,
+      "flags": 0,
+      "clusters": [
+        67,50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 896.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 53,
+      "flags": 0,
+      "clusters": [
+        67
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 560.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 54,
+      "flags": 0,
+      "clusters": [
+        67
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 224.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 55,
+      "flags": 0,
+      "clusters": [
+        13
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4256.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 56,
+      "flags": 0,
+      "clusters": [
+        13
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4584.0,
+        "y": 1440.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 57,
+      "flags": 0,
+      "clusters": [
+        19,13
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4240.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 58,
+      "flags": 0,
+      "clusters": [
+        19
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3904.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 59,
+      "flags": 0,
+      "clusters": [
+        19
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3568.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 60,
+      "flags": 0,
+      "clusters": [
+        19
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3232.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 61,
+      "flags": 0,
+      "clusters": [
+        37
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2896.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 62,
+      "flags": 0,
+      "clusters": [
+        37
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2560.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 63,
+      "flags": 0,
+      "clusters": [
+        44,42,41,40,39,37
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2224.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 64,
+      "flags": 0,
+      "clusters": [
+        50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1888.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 65,
+      "flags": 0,
+      "clusters": [
+        50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1552.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 66,
+      "flags": 0,
+      "clusters": [
+        50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1216.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 67,
+      "flags": 0,
+      "clusters": [
+        67,50
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 880.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 68,
+      "flags": 0,
+      "clusters": [
+        67
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 544.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 69,
+      "flags": 0,
+      "clusters": [
+        13
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4576.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 70,
+      "flags": 0,
+      "clusters": [
+        10
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4904.0,
+        "y": 1888.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 71,
+      "flags": 0,
+      "clusters": [
+        36
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 224.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 72,
+      "flags": 0,
+      "clusters": [
+        36
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 560.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 73,
+      "flags": 0,
+      "clusters": [
+        36,35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 896.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 74,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1232.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 75,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1568.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 76,
+      "flags": 0,
+      "clusters": [
+        35,34
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1904.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 77,
+      "flags": 0,
+      "clusters": [
+        34,33,32,31,30,27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2240.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 78,
+      "flags": 0,
+      "clusters": [
+        27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2576.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 79,
+      "flags": 0,
+      "clusters": [
+        27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 80,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3248.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 81,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 82,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3920.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 83,
+      "flags": 0,
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4256.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 84,
+      "flags": 0,
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4592.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 85,
+      "flags": 0,
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4912.0,
+        "y": 2336.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 86,
+      "flags": 0,
+      "clusters": [
+        36
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 544.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 87,
+      "flags": 0,
+      "clusters": [
+        36,35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 880.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 88,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1216.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 89,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1552.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 90,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1888.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 91,
+      "flags": 0,
+      "clusters": [
+        34,28,27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2224.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 92,
+      "flags": 0,
+      "clusters": [
+        27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2560.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 93,
+      "flags": 0,
+      "clusters": [
+        27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2896.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 94,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3232.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 95,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3568.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 96,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3904.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 97,
+      "flags": 0,
+      "clusters": [
+        8,4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4240.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 98,
+      "flags": 0,
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4576.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 99,
+      "flags": 0,
+      "clusters": [
+        4
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4904.0,
+        "y": 2656.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 100,
+      "flags": 0,
+      "clusters": [
+        36
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 224.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 101,
+      "flags": 0,
+      "clusters": [
+        36
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 560.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 102,
+      "flags": 0,
+      "clusters": [
+        36,35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 896.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 103,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1232.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 104,
+      "flags": 0,
+      "clusters": [
+        35
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1568.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 105,
+      "flags": 0,
+      "clusters": [
+        35,34
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1904.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 106,
+      "flags": 0,
+      "clusters": [
+        34,28,27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2240.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 107,
+      "flags": 0,
+      "clusters": [
+        27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2576.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 108,
+      "flags": 0,
+      "clusters": [
+        27
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2912.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 109,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3248.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 110,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 111,
+      "flags": 0,
+      "clusters": [
+        8
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3920.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 112,
+      "flags": 0,
+      "clusters": [
+        0
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4256.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 113,
+      "flags": 0,
+      "clusters": [
+        0
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4592.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 114,
+      "flags": 0,
+      "clusters": [
+        0
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4912.0,
+        "y": 2976.0,
+        "z": -264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    }
+  ]
+}
